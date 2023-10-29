@@ -105,11 +105,11 @@
         <div class="interface">
             <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-            <form action="">
-            <input type="text" name="" id="" placeholder="Seu Nome Completo:" required>
-            <input type="text" name="" id="" placeholder="Seu E-mail:" required>
-            <input type="text" name="" id="" placeholder="Seu Celular:">
-            <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+            <form method="post" action="enviar.php">
+            <input type="text" name="nome"  placeholder="Seu Nome Completo:" required>
+            <input type="text" name="email"  placeholder="Seu E-mail:" required>
+            <input type="text" name="telefone"  placeholder="Seu Celular:">
+            <textarea name="mensagem" id="" placeholder="Sua mensagem:" required></textarea>
             <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
             </form>
         </div><!--interface-->
